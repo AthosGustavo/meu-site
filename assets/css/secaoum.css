@@ -1,0 +1,127 @@
+
+body{
+    background-color: white;
+}
+
+.estilo-titulo{
+    color:#222224;
+    font-family: 'Poppins', sans-serif;
+    font-size:25px;
+    font-weight: 700;
+    
+}
+.cabecalho {
+    width: 100%;
+    height: 60px;
+    background-color:#222224;
+    /* position:fixed; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho__lista {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cabecalho__link {
+    display: inline-block;
+    margin: 0 35px;
+    margin-top: 22px;
+}    
+
+.cabecalho__link a {
+    color:white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.secaoum {
+    /* background-color: #23b90c; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 765px;
+}
+
+
+.secaoum__paragrafos {
+    /* background-color: aqua; */
+    height: 465px;
+    width: 400px;
+    margin:0 60px;
+}
+
+.paragrafo__um{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 90px;
+    
+    color:#222224;
+}
+
+.athosgustavo{
+    height: 1px;
+    color:#222224;
+    font-family: 'Poppins', sans-serif;
+    font-size:50px;
+    font-weight: 700;
+    margin-top:20px;
+}
+
+.paragrafo__dois{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight:500 ;
+    margin-top:60px;
+}
+
+.paragrafo__tres{
+    font-family: 'Roboto', sans-serif;
+    margin-top:30px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align:left;
+    line-height: 24px;
+    color:rgb(77, 77, 77);
+}
+.tags-verdes{
+    color:#23b90c;
+}
+
+.paragrafo__botao{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    height: 35px;
+    width: 170px;
+    background-color: #6e0bdf;
+    color:white;
+    /* box-shadow:4px 4px white; */
+    padding:0 25px;
+    margin:20px 0;
+    /* display: inline-block; */
+    border:1px solid transparent;
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing:2px;
+    /* transition: ease all 0.35; */
+    /* margin:30px 0; */
+}
+.paragrafo__botao:hover{
+    cursor: pointer;
+    background-color: #1c9908;
+    transition: 0.5s;
+}
+
+.secaoum__blocoimg {
+    
+    height: 495px;
+    width: 400px;
+}
+.imgathos{
+    height: 450px;
+    
+}

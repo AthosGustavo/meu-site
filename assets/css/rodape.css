@@ -1,0 +1,60 @@
+.rodape{
+    background-color:#222224;
+    width: 100%;
+    height: 150px;
+}
+.rodape_contato{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin:15px 0;
+    padding-top:15px;
+}
+.rodape__bloco{
+    display: flex;
+    justify-content: center;
+}
+
+.creditos{
+    height: 27px;
+    background-color:  #4a0b92;
+}
+
+.informacoes{
+    height: 50px;
+    width: 273px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.informacoes__p{
+    margin:0 7px;
+    margin-top:3px;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    color:white;
+}
+
+.icone{
+    height: 18px;
+    padding-left: 45px;
+}
+.teste{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 7px;
+}
+
+.icone__rodape--github{
+    margin:0 10px;
+}
+.creditos__dev{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color:white;
+    padding-top:5px;
+}

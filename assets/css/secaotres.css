@@ -1,0 +1,51 @@
+.secaotres{
+    height: 750px;
+    /* background-color: blueviolet; */
+}
+.secaotres__exercicios{
+    /* background-color:aqua; */
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+.estilo-exercicios{
+    height: 230px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:60px 20px;
+    background-color: #f7f8f6;
+    box-shadow:6px 6px 6px #888;
+}    
+    
+
+.secaotres__titulo{
+    text-align: center;
+    padding-top: 50px;
+}    
+    
+.secaotres__githubimg{
+    height: 160px;
+}
+.beecrowdimg{
+    height: 160px;
+}
+.secaotres__codewarsimg{
+    height: 160px;
+}
+.estilo-link{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:#222224
+}
+.estilo-link-exercicio{
+    font-size: 18px;
+    color:#6e0bdf;
+
+}

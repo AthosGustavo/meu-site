@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.certificados{
+    height: 750px;
+    width: 100%;
+    /* background-color: chocolate; */
+}
+.secaoquatro__titulo{
+    text-align: center;
+    padding-top: 50px;
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 370px;
+}
+
+.slider__img {
+    width: 410px;
+    height: 280px;
+    box-shadow: 6px 6px 6px #888;
+}
